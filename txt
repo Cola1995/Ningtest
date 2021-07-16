@@ -1,0 +1,9 @@
+allure 生成测试报告json
+pytest -sv C:\Users\waction\PycharmProjects\Ningtest\testcase\att\test_num_pom.py --alluredir C:\Users\waction\PycharmProjects\Ningtest\report
+
+打卡报告页面
+allure serve C:\Users\waction\PycharmProjects\Ningtest\report
+
+java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig hub_config.json
+
+java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig node_config.json
